@@ -1,0 +1,51 @@
+# netlify.toml — Netlify deployment configuration for Sweets Shop
+# Note: Netlify does not natively support traditional PHP (only PHP via functions).
+# For this PHP project, you have two options:
+#
+# Option 1: Use PHP serverless functions (requires restructuring)
+# Option 2: Deploy frontend separately and use an external PHP backend
+#
+# This config provides a basic setup. For production PHP hosting, consider:
+# - InfinityFree, Railway, or Render (better PHP support than Netlify)
+
+[build]
+# Build command: no build step needed for traditional PHP
+command = "echo 'Sweets Shop ready for deployment'"
+# Public directory (static files)
+publish = "public"
+
+# Environment variables for production
+[build.environment]
+PHP_VERSION = "8.2"
+NODE_ENV = "production"
+
+# Redirects for SPA/PHP routing (if using URL rewriting)
+[[redirects]]
+from = "/*"
+to = "/index.php"
+status = 200
+conditions = { Role = ["Admin"] }
+
+# Security headers
+[[headers]]
+for = "/*"
+[headers.values]
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "SAMEORIGIN"
+X-XSS-Protection = "1; mode=block"
+Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+# Cache policy for static assets
+[[headers]]
+for = "/assets/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+# No cache for PHP files
+[[headers]]
+for = "*.php"
+[headers.values]
+Cache-Control = "no-cache, no-store, must-revalidate"
+
+# Note: This is a starter config. Netlify's native support is for static sites + serverless functions.
+# For traditional PHP apps like this, InfinityFree or Railway.app are better choices.
