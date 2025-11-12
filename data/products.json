@@ -1,0 +1,169 @@
+[
+  {
+    "id": "1",
+    "category": "Chocolates",
+    "name": "Chocolate Truffle Box",
+    "short": "Assorted rich chocolate truffles",
+    "description": "A selection of handmade truffles made with premium cocoa, filled with ganache and dusted in cocoa powder.",
+  "price": 1080.00,
+    "image": "assets/images/chocolate-truffle-box.jpg",
+    "badge": "Best Seller"
+  },
+  {
+    "id": "2",
+    "category": "Cookies",
+    "name": "Strawberry Macarons",
+    "short": "Crisp shells, soft center",
+    "description": "Delicate French macarons with a fresh strawberry filling. Perfectly sweet and light.",
+  "price": 405.00,
+    "image": "assets/images/strawberry-macaron.jpg"
+  },
+  {
+    "id": "3",
+    "category": "Cookies",
+    "name": "Honey Cookies",
+    "short": "Crunchy with honey glaze",
+    "description": "Oven-baked butter cookies glazed in natural honey with a golden finish.",
+  "price": 162.00,
+    "image": "assets/images/honey-cookies.jpeg"
+  },
+  {
+    "id": "4",
+    "category": "Chocolates",
+    "name": "Dark Chocolate Bark",
+    "short": "Sea salt and almond bark",
+    "description": "Premium dark chocolate with roasted almonds and a hint of sea salt. Perfect for chocolate lovers.",
+  "price": 675.00,
+    "image": "assets/images/dark-chocolate-bark.jpg"
+  },
+  {
+    "id": "5",
+    "category": "Chocolates",
+    "name": "Milk Chocolate Fudge",
+    "short": "Creamy and smooth",
+    "description": "Homemade fudge made with real milk chocolate and butter. Cuts into perfect squares.",
+  "price": 495.00,
+    "image": "assets/images/Milk-Chocolate-Fudge.jpg",
+    "badge": "Best Seller"
+  },
+  {
+    "id": "6",
+    "category": "Candies",
+    "name": "Rainbow Gummy Bears",
+    "short": "Fruity and chewy",
+    "description": "Colorful assorted gummy bears with natural fruit flavors. Sugar-coated and delicious.",
+  "price": 198.00,
+    "image": "assets/images/rainbow-gummy-bear.jpeg"
+  },
+  {
+    "id": "7",
+    "category": "Candies",
+    "name": "Lollipop Assortment",
+    "short": "Classic fruit flavors",
+    "description": "Old-fashioned lollipops in cherry, orange, grape, and lemon flavors. Perfect for any occasion.",
+  "price": 144.00,
+    "image": "assets/images/lollipop-assortment.jpg"
+  },
+  {
+    "id": "8",
+    "category": "Candies",
+    "name": "Caramel Apple Taffy",
+    "short": "Chewy and sweet",
+    "description": "Soft taffy candies with authentic caramel and apple flavors. A classic treat.",
+  "price": 126.00,
+    "image": "assets/images/caramel-apple-taffy.jpg"
+  },
+  {
+    "id": "9",
+    "category": "Cakes",
+    "name": "Chocolate Layer Cake",
+    "short": "Rich and decadent",
+    "description": "Three layers of moist chocolate cake with chocolate frosting and ganache topping. Serves 12.",
+  "price": 2880.00,
+    "image": "assets/images/chocolate-layer-cake.jpg",
+    "badge": "Popular"
+  },
+  {
+    "id": "10",
+    "category": "Cakes",
+    "name": "Vanilla Cheesecake",
+    "short": "Creamy and classic",
+    "description": "Rich New York style cheesecake with a graham cracker crust and vanilla bean filling.",
+  "price": 2520.00,
+    "image": "assets/images/Vanilla-Cheesecake.jpg"
+  },
+  {
+    "id": "11",
+    "category": "Cakes",
+    "name": "Strawberry Shortcake",
+    "short": "Light and fruity",
+    "description": "Fluffy sponge cake layered with fresh whipped cream and ripe strawberries.",
+  "price": 1980.00,
+    "image": "assets/images/strawberry-shortcake.jpg",
+    "badge": "Popular"
+  },
+  {
+    "id": "12",
+    "category": "Pastries",
+    "name": "Almond Croissants",
+    "short": "Flaky and buttery",
+    "description": "Authentic French croissants filled with almond cream and topped with sliced almonds.",
+  "price": 198.00,
+    "image": "assets/images/almond-croissants.jpg"
+  },
+  {
+    "id": "13",
+    "category": "Pastries",
+    "name": "Chocolate Eclairs",
+    "short": "Crispy and creamy",
+    "description": "Choux pastry filled with pastry cream and topped with smooth chocolate glaze.",
+  "price": 216.00,
+    "image": "assets/images/chocolate-eclairs.jpg"
+  },
+  {
+    "id": "14",
+    "category": "Pastries",
+    "name": "Fruit Tart",
+    "short": "Colorful and fresh",
+    "description": "Butter pastry shell filled with vanilla custard and topped with fresh seasonal fruits.",
+  "price": 855.00,
+    "image": "assets/images/fruit-tart.jpg"
+  },
+  {
+    "id": "15",
+    "category": "Cookies",
+    "name": "Chocolate Chip Cookies",
+    "short": "Chewy and loaded",
+    "description": "Classic cookies loaded with premium chocolate chips and walnuts. Still warm and delicious.",
+  "price": 270.00,
+    "image": "assets/images/chocolate-chip-cookie.jpg",
+    "badge": "Popular"
+  },
+  {
+    "id": "16",
+    "category": "Cookies",
+    "name": "Oatmeal Raisin Cookies",
+    "short": "Wholesome treat",
+    "description": "Hearty oatmeal cookies with plump raisins and a hint of cinnamon.",
+  "price": 252.00,
+    "image": "assets/images/Oatmeal-Raisin-Cookies.jpg"
+  },
+  {
+    "id": "17",
+    "category": "Candies",
+    "name": "Peppermint Bark",
+    "short": "Festive and crisp",
+    "description": "Dark chocolate layer topped with crushed peppermint candy. A seasonal favorite.",
+  "price": 315.00,
+    "image": "assets/images/peppermint-bark.jpeg"
+  },
+  {
+    "id": "18",
+    "category": "Cakes",
+    "name": "Red Velvet Cupcakes",
+    "short": "Velvet-textured treats",
+    "description": "Six individual red velvet cupcakes with cream cheese frosting. Delivery fresh daily.",
+  "price": 720.00,
+    "image": "assets/images/red-velvet-cupcake.jpg"
+  }
+]
