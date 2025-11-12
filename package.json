@@ -1,6 +1,6 @@
 {
-  "engines": {
-    "node": "none"
-  },
-  "description": "This is a PHP project, not a Node.js project"
+  "name": "sweets-shop-placeholder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Placeholder package.json for PHP project (deprecated)."
 }
