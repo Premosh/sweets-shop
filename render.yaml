@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: sweets-shop
+    env: php
+    plan: free
+    buildCommand: ./render-build.sh
+    startCommand: vendor/bin/heroku-php-apache2 public/
+    envVars:
+      - key: PHP_VERSION
+        value: "8.2"
+      - key: COMPOSER_NO_INTERACTION
+        value: "1"
+    staticPublishPath: public
+    routes:
+      - path: /
+        matchType: prefix

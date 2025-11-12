@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PHP composer files
+/vendor/
+composer.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+error.log
+php_errors.log
+
+# Session files
+sessions/
+tmp/
+
+# Upload directory (keep directory, ignore contents)
+/public/uploads/*
+!/public/uploads/.gitkeep
