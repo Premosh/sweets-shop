@@ -1,0 +1,6 @@
+{
+  "engines": {
+    "node": "none"
+  },
+  "description": "This is a PHP project, not a Node.js project"
+}
