@@ -1,7 +1,0 @@
-{
-  "name": "premosh/sweets-shop",
-  "description": "PHP sweets shop application",
-  "require": {
-    "php": "^8.0"
-  }
-}
